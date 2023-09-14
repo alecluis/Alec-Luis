@@ -1,1 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+} /*this sets the style for whole project*/
 
+body {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: azure;
+  font-size: 15px;
+} /*this is the style for all the html, the alignment, the font style, the background color, and the font size*/
+
+header {
+  background-color: steelblue;
+  color: whitesmoke;
+  height: 100px;
+  padding: 20px;
+} /*this sets the style for the header*/
+
+main {
+  background-color: skyblue;
+  color: whitesmoke;
+  height: 800px;
+  padding: 15px;
+}/*this is the style for the main section*/
+
+footer {
+  background-color: steelblue;
+  color: whitesmoke;
+  height: 75px;
+  padding: 15px;
+} /*this is the style for the footer*/
+
+ul {
+  list-style-position: inside;
+}
+
+ol {
+  list-style-position: inside;
+} /*this and the ul style position the list items in the center with the rest of the text*/
+
+.btn-linkin {
+  background-color: skyblue;
+  color: white;
+  border-radius: 50px;
+} /*this styles the links*/
+
+hr {
+  width: 300px;
+} /*this styles the horizontal line, setting its length*/
